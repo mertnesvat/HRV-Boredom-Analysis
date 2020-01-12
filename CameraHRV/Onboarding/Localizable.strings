@@ -1,0 +1,82 @@
+/*
+ Copyright (c) 2018, Apple Inc. All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+ 
+ 1.  Redistributions of source code must retain the above copyright notice, this
+ list of conditions and the following disclaimer.
+ 
+ 2.  Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation and/or
+ other materials provided with the distribution.
+ 
+ 3.  Neither the name of the copyright holder(s) nor the names of any contributors
+ may be used to endorse or promote products derived from this software without
+ specific prior written permission. No license is granted to the trademarks of
+ the copyright holders even if such marks are included in this software.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+// CONSENT
+
+"CONSENT_DATA" = "Study Description : \n\nHRV provide useful information about personal well-being, overall, high-HRV is related to better health, and low-HRV is linked to increased stress levels. HRV can be affected by personal data from gender to exercise pattern, and also from every factor in the environment such as air quality. \n\n HRV is also distinct for each person so comparing with others would not provide accurate information, only to compare with some people who have similar demographics would be beneficial. Paying attention to HRV gives a great picture of daily life and overall health. \n\n It's applied in investigations of various industries and function areas from sleep analysis to serious cardiac problems such as heart failure. Study aims to get more insight about possible improvements of HRV usage in our daily life.";
+
+"CONSENT_PRIVACY" = "Confidentiality of information provided subjects to legal limitations and all the personal information will be destroyed on the successfull completion of the study.";
+
+"CONSENT_DATA_USE" = "Data will be used only for the scientific purpose and will not be shared with commercially any third part source and will be destroyed on the successfull completion of the study..\n\n Biographical details will be omitted in the final report to protect participants identity. \n\n\n You'll be agree that following statements\n\n   - The study purposes have been explained to me.\n   - Had to opportunity to ask questions and discuss the process.\n   - Received satisfactory answers to all my questions.\n   - Given this I would like to participate in this study as a volunteer.";
+
+"CONSENT_WITHDRAW" = "Involment in this Research Study is voluntary. Participants who decide to take part may withdraw from the Research Study at any point. There will be no penalty for withdrawing before all stages of the Research Study have been completed.";
+
+// ONBOARDING
+
+// ONBOARDING WELCOME
+
+"ONBOARDING_WELCOME_INTRO_TITLE" = "Welcome";
+
+"ONBOARDING_WELCOME_INTRO_DETAIL" = "Heart rate variability (HRV) is simply a measure of the specific changes in time between each heartbeat, and the autonomic nervous system (ANS) controls this variation.\n\n The concept of the HRV is very old, the ancient Greek physician and scientist, Herophilos, defined and introduced the heart rate for the first time by used a water clock to time the pulse.\n\n🥳 Luckily nowadays it's even easier to understand pulse rate by simply putting your finger tip to the camera by covering flash!";
+
+// ONBOARDING EXPECTATIONS
+
+"ONBOARDING_WELCOME_EXPECTATIONS_TITLE" = "Study Expectations";
+
+"ONBOARDING_WELCOME_EXPECTATIONS_BODY" = "The wished result of this study is to investigate Heart Rate Variability. Designing an effective HRV application with using Photoplethysmography method and conducting a survey about progress of the participants.";
+
+"ONBOARDING_WELCOME_EXPECTATIONS_FOREGROUND" = "This app send 3 notification everyday!";
+
+"ONBOARDING_WELCOME_EXPECTATIONS_PUSH_FOREGROUND" = "You have to do measurements 3 times a day!";
+
+"ONBOARDING_WELCOME_EXPECTATIONS_STUDY_DURATION" = "The study will last for 7 days.";
+
+"ONBOARDING_WELCOME_EXPECTATIONS_STUDY_OWNER" = "The result will be sent to your email.";
+
+"ONBOARDING_WELCOME_REQUIREMENTS_TITLE" = "Study Requirements";
+
+"ONBOARDING_WELCOME_REQUIREMENTS_BODY" = "In order to participate in this study you must meet the following critera:";
+
+"ONBOARDING_WELCOME_REQUIREMENTS_AGE_LIMIT" = "Be over the age of 16";
+
+"ONBOARDING_WELCOME_REQUIREMENTS_SIMILAR_STUDY" = "Take measurements with push notifications!";
+
+"ONBOARDING_WELCOME_REQUIREMENTS_CARRY_IPHONE" = "Carry your iPhone around with you regularly";
+
+"ONBOARDING_WELCOME_REVIEW_BODY" = "Review the consent agreement and begin the agreement process by entering your first and last name below.";
+
+"ONBOARDING_WELCOME_REVIEW_CONSENT_AFFIRM" = "Consent to join the HRV Study";
+
+"ONBOARDING_WELCOME_REVIEW_COMPLETION_TITLE" = "Success";
+
+"ONBOARDING_WELCOME_REVIEW_COMPLETION_BODY" = "Thank you for enrolling in this study.For the best results please stay enrolled in the study for its entire duration.";
+
+// REGISTRATION
+"REGISTRATION" = "Contact Information";

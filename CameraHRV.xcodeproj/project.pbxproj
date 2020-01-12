@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142F3767B30465154084254A /* Pods_CameraHRV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4679FDA012B82239F9534F4 /* Pods_CameraHRV.framework */; };
+		D778B49723C0C07A00F58BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B49623C0C07A00F58BD2 /* AppDelegate.swift */; };
+		D778B49923C0C07A00F58BD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B49823C0C07A00F58BD2 /* SceneDelegate.swift */; };
+		D778B4A023C0C07B00F58BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D778B49F23C0C07B00F58BD2 /* Assets.xcassets */; };
+		D778B4A323C0C07B00F58BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D778B4A123C0C07B00F58BD2 /* LaunchScreen.storyboard */; };
+		D778B4AF23C0C1A100F58BD2 /* OnboardingStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4AC23C0C1A100F58BD2 /* OnboardingStateManager.swift */; };
+		D778B4B023C0C1A100F58BD2 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4AD23C0C1A100F58BD2 /* OnboardingViewController.swift */; };
+		D778B4B123C0C1A100F58BD2 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4AE23C0C1A100F58BD2 /* ConsentDocument.swift */; };
+		D778B4B723C0C1BB00F58BD2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4B323C0C1BB00F58BD2 /* Extensions.swift */; };
+		D778B4B823C0C1BB00F58BD2 /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4B423C0C1BB00F58BD2 /* HelperExtensions.swift */; };
+		D778B4B923C0C1BB00F58BD2 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4B523C0C1BB00F58BD2 /* FirebaseHelper.swift */; };
+		D778B4BA23C0C1BB00F58BD2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4B623C0C1BB00F58BD2 /* Colors.swift */; };
+		D778B4BE23C0C1CC00F58BD2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4BC23C0C1CC00F58BD2 /* UserModel.swift */; };
+		D778B4BF23C0C1CC00F58BD2 /* MeasurementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4BD23C0C1CC00F58BD2 /* MeasurementModel.swift */; };
+		D778B4C323C0C1EA00F58BD2 /* MeasurementDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4C023C0C1EA00F58BD2 /* MeasurementDetailViewController.swift */; };
+		D778B4C423C0C1EA00F58BD2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4C123C0C1EA00F58BD2 /* HistoryViewController.swift */; };
+		D778B4C523C0C1EA00F58BD2 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4C223C0C1EA00F58BD2 /* PresentationViewController.swift */; };
+		D778B4C723C0C20900F58BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D778B4C623C0C20900F58BD2 /* Main.storyboard */; };
+		D778B4D223C0C2B300F58BD2 /* HRVUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B4C923C0C2B300F58BD2 /* HRVUtils.swift */; };
+		D778B4D323C0C2B300F58BD2 /* PulseDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = D778B4CC23C0C2B300F58BD2 /* PulseDetector.mm */; };
+		D778B4D423C0C2B300F58BD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D778B4CD23C0C2B300F58BD2 /* ViewController.m */; };
+		D778B4D523C0C2B300F58BD2 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = D778B4CE23C0C2B300F58BD2 /* Filter.m */; };
+		D7B8270C23CAA717007E1B9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B8270B23CAA717007E1B9E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F01C60B526F10B72B1D4CF5 /* Pods-CameraHRV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraHRV.debug.xcconfig"; path = "Target Support Files/Pods-CameraHRV/Pods-CameraHRV.debug.xcconfig"; sourceTree = "<group>"; };
+		6F733B68BEE398890B9C8B6E /* Pods-CameraHRV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraHRV.release.xcconfig"; path = "Target Support Files/Pods-CameraHRV/Pods-CameraHRV.release.xcconfig"; sourceTree = "<group>"; };
+		C4679FDA012B82239F9534F4 /* Pods_CameraHRV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraHRV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D778B49323C0C07A00F58BD2 /* CameraHRV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraHRV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D778B49623C0C07A00F58BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D778B49823C0C07A00F58BD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D778B49F23C0C07B00F58BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D778B4A223C0C07B00F58BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D778B4A423C0C07B00F58BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D778B4AC23C0C1A100F58BD2 /* OnboardingStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingStateManager.swift; sourceTree = "<group>"; };
+		D778B4AD23C0C1A100F58BD2 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		D778B4AE23C0C1A100F58BD2 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		D778B4B323C0C1BB00F58BD2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D778B4B423C0C1BB00F58BD2 /* HelperExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
+		D778B4B523C0C1BB00F58BD2 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		D778B4B623C0C1BB00F58BD2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D778B4BC23C0C1CC00F58BD2 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D778B4BD23C0C1CC00F58BD2 /* MeasurementModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementModel.swift; sourceTree = "<group>"; };
+		D778B4C023C0C1EA00F58BD2 /* MeasurementDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementDetailViewController.swift; sourceTree = "<group>"; };
+		D778B4C123C0C1EA00F58BD2 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D778B4C223C0C1EA00F58BD2 /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		D778B4C623C0C20900F58BD2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D778B4C923C0C2B300F58BD2 /* HRVUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRVUtils.swift; sourceTree = "<group>"; };
+		D778B4CB23C0C2B300F58BD2 /* PulseDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulseDetector.h; sourceTree = "<group>"; };
+		D778B4CC23C0C2B300F58BD2 /* PulseDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PulseDetector.mm; sourceTree = "<group>"; };
+		D778B4CD23C0C2B300F58BD2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D778B4CE23C0C2B300F58BD2 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		D778B4CF23C0C2B300F58BD2 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		D778B4D023C0C2B300F58BD2 /* CameraHRV-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CameraHRV-Bridging-Header.h"; sourceTree = "<group>"; };
+		D778B4D123C0C2B300F58BD2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7B8270B23CAA717007E1B9E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D778B49023C0C07A00F58BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142F3767B30465154084254A /* Pods_CameraHRV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0953CAF5DF47C6E06059B1A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4679FDA012B82239F9534F4 /* Pods_CameraHRV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39C34B7313B433158D35A581 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F01C60B526F10B72B1D4CF5 /* Pods-CameraHRV.debug.xcconfig */,
+				6F733B68BEE398890B9C8B6E /* Pods-CameraHRV.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D778B48A23C0C07A00F58BD2 = {
+			isa = PBXGroup;
+			children = (
+				D778B49523C0C07A00F58BD2 /* CameraHRV */,
+				D778B49423C0C07A00F58BD2 /* Products */,
+				39C34B7313B433158D35A581 /* Pods */,
+				0953CAF5DF47C6E06059B1A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D778B49423C0C07A00F58BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D778B49323C0C07A00F58BD2 /* CameraHRV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D778B49523C0C07A00F58BD2 /* CameraHRV */ = {
+			isa = PBXGroup;
+			children = (
+				D778B4CA23C0C2B300F58BD2 /* HRV */,
+				D778B4C823C0C2B300F58BD2 /* HRV-Utils */,
+				D778B4BB23C0C1CC00F58BD2 /* Models */,
+				D778B4B223C0C1BB00F58BD2 /* Helpers */,
+				D778B4AB23C0C1A100F58BD2 /* Onboarding */,
+				D778B49623C0C07A00F58BD2 /* AppDelegate.swift */,
+				D778B4C123C0C1EA00F58BD2 /* HistoryViewController.swift */,
+				D778B4C023C0C1EA00F58BD2 /* MeasurementDetailViewController.swift */,
+				D778B4C223C0C1EA00F58BD2 /* PresentationViewController.swift */,
+				D778B4C623C0C20900F58BD2 /* Main.storyboard */,
+				D778B4AA23C0C14A00F58BD2 /* Essentials */,
+			);
+			path = CameraHRV;
+			sourceTree = "<group>";
+		};
+		D778B4AA23C0C14A00F58BD2 /* Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				D778B49F23C0C07B00F58BD2 /* Assets.xcassets */,
+				D778B4A123C0C07B00F58BD2 /* LaunchScreen.storyboard */,
+				D778B4A423C0C07B00F58BD2 /* Info.plist */,
+				D778B49823C0C07A00F58BD2 /* SceneDelegate.swift */,
+			);
+			path = Essentials;
+			sourceTree = "<group>";
+		};
+		D778B4AB23C0C1A100F58BD2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D7B8270B23CAA717007E1B9E /* Localizable.strings */,
+				D778B4AC23C0C1A100F58BD2 /* OnboardingStateManager.swift */,
+				D778B4AD23C0C1A100F58BD2 /* OnboardingViewController.swift */,
+				D778B4AE23C0C1A100F58BD2 /* ConsentDocument.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D778B4B223C0C1BB00F58BD2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D778B4B323C0C1BB00F58BD2 /* Extensions.swift */,
+				D778B4B423C0C1BB00F58BD2 /* HelperExtensions.swift */,
+				D778B4B523C0C1BB00F58BD2 /* FirebaseHelper.swift */,
+				D778B4B623C0C1BB00F58BD2 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D778B4BB23C0C1CC00F58BD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D778B4BC23C0C1CC00F58BD2 /* UserModel.swift */,
+				D778B4BD23C0C1CC00F58BD2 /* MeasurementModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D778B4C823C0C2B300F58BD2 /* HRV-Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D778B4C923C0C2B300F58BD2 /* HRVUtils.swift */,
+			);
+			path = "HRV-Utils";
+			sourceTree = "<group>";
+		};
+		D778B4CA23C0C2B300F58BD2 /* HRV */ = {
+			isa = PBXGroup;
+			children = (
+				D778B4CB23C0C2B300F58BD2 /* PulseDetector.h */,
+				D778B4CC23C0C2B300F58BD2 /* PulseDetector.mm */,
+				D778B4CE23C0C2B300F58BD2 /* Filter.m */,
+				D778B4CF23C0C2B300F58BD2 /* Filter.h */,
+				D778B4D023C0C2B300F58BD2 /* CameraHRV-Bridging-Header.h */,
+				D778B4D123C0C2B300F58BD2 /* ViewController.h */,
+				D778B4CD23C0C2B300F58BD2 /* ViewController.m */,
+			);
+			path = HRV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D778B49223C0C07A00F58BD2 /* CameraHRV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D778B4A723C0C07B00F58BD2 /* Build configuration list for PBXNativeTarget "CameraHRV" */;
+			buildPhases = (
+				4F48DC8F149F5B3CC68CE975 /* [CP] Check Pods Manifest.lock */,
+				D778B48F23C0C07A00F58BD2 /* Sources */,
+				D778B49023C0C07A00F58BD2 /* Frameworks */,
+				D778B49123C0C07A00F58BD2 /* Resources */,
+				6403453A692C6344C0B98695 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraHRV;
+			productName = CameraHRV;
+			productReference = D778B49323C0C07A00F58BD2 /* CameraHRV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D778B48B23C0C07A00F58BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Mert Nesvat";
+				TargetAttributes = {
+					D778B49223C0C07A00F58BD2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D778B48E23C0C07A00F58BD2 /* Build configuration list for PBXProject "CameraHRV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D778B48A23C0C07A00F58BD2;
+			productRefGroup = D778B49423C0C07A00F58BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D778B49223C0C07A00F58BD2 /* CameraHRV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D778B49123C0C07A00F58BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D778B4C723C0C20900F58BD2 /* Main.storyboard in Resources */,
+				D7B8270C23CAA717007E1B9E /* Localizable.strings in Resources */,
+				D778B4A323C0C07B00F58BD2 /* LaunchScreen.storyboard in Resources */,
+				D778B4A023C0C07B00F58BD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F48DC8F149F5B3CC68CE975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraHRV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6403453A692C6344C0B98695 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraHRV/Pods-CameraHRV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraHRV/Pods-CameraHRV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CameraHRV/Pods-CameraHRV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D778B48F23C0C07A00F58BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D778B4D423C0C2B300F58BD2 /* ViewController.m in Sources */,
+				D778B4BA23C0C1BB00F58BD2 /* Colors.swift in Sources */,
+				D778B4B823C0C1BB00F58BD2 /* HelperExtensions.swift in Sources */,
+				D778B4B123C0C1A100F58BD2 /* ConsentDocument.swift in Sources */,
+				D778B4BF23C0C1CC00F58BD2 /* MeasurementModel.swift in Sources */,
+				D778B4C423C0C1EA00F58BD2 /* HistoryViewController.swift in Sources */,
+				D778B49723C0C07A00F58BD2 /* AppDelegate.swift in Sources */,
+				D778B4D523C0C2B300F58BD2 /* Filter.m in Sources */,
+				D778B4B923C0C1BB00F58BD2 /* FirebaseHelper.swift in Sources */,
+				D778B4B023C0C1A100F58BD2 /* OnboardingViewController.swift in Sources */,
+				D778B4AF23C0C1A100F58BD2 /* OnboardingStateManager.swift in Sources */,
+				D778B4D223C0C2B300F58BD2 /* HRVUtils.swift in Sources */,
+				D778B4C523C0C1EA00F58BD2 /* PresentationViewController.swift in Sources */,
+				D778B4D323C0C2B300F58BD2 /* PulseDetector.mm in Sources */,
+				D778B49923C0C07A00F58BD2 /* SceneDelegate.swift in Sources */,
+				D778B4B723C0C1BB00F58BD2 /* Extensions.swift in Sources */,
+				D778B4C323C0C1EA00F58BD2 /* MeasurementDetailViewController.swift in Sources */,
+				D778B4BE23C0C1CC00F58BD2 /* UserModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D778B4A123C0C07B00F58BD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D778B4A223C0C07B00F58BD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D778B4A523C0C07B00F58BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D778B4A623C0C07B00F58BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D778B4A823C0C07B00F58BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F01C60B526F10B72B1D4CF5 /* Pods-CameraHRV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YA74M59BZ;
+				INFOPLIST_FILE = "$(SRCROOT)/CameraHRV/Essentials/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertnesvat.CameraHRV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraHRV/HRV/CameraHRV-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D778B4A923C0C07B00F58BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F733B68BEE398890B9C8B6E /* Pods-CameraHRV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YA74M59BZ;
+				INFOPLIST_FILE = "$(SRCROOT)/CameraHRV/Essentials/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertnesvat.CameraHRV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraHRV/HRV/CameraHRV-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D778B48E23C0C07A00F58BD2 /* Build configuration list for PBXProject "CameraHRV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D778B4A523C0C07B00F58BD2 /* Debug */,
+				D778B4A623C0C07B00F58BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D778B4A723C0C07B00F58BD2 /* Build configuration list for PBXNativeTarget "CameraHRV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D778B4A823C0C07B00F58BD2 /* Debug */,
+				D778B4A923C0C07B00F58BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D778B48B23C0C07A00F58BD2 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_CameraHRV {
+  umbrella header "Pods-CameraHRV-umbrella.h"
+
+  export *
+  module * { export * }
+}
